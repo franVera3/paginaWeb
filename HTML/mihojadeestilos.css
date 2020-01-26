@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cabeceraweb{
+	background-color: blue;
+
+}
+
+#navegacionprincipal{
+	background-color: red;
+
+}
+
+#barralateral{
+	background-color: green;
+	float:left;
+	height:900px;
+	
+}
+
+#contenidoprincipal{
+	background-color: violet;
+	margin-left:210px;
+	padding-left: 15px;
+	padding-top: 15px;
+	
+
+}
+
+#pieweb{
+	background-color: yellow;
+	clear:both;
+	margin-top:50px;
+
+}
+
+li{
+	background-color:yellow;
+	display: inline;
+
+}
+
