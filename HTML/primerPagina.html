@@ -1,128 +1,54 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-   
-   <meta charset="iso-8559-1"/>
-   <meta name="description" content="Página de practica en html5"/>
-   <meta name="keywords" content="html5, css3, javaScript, web"/>
-
-   <title>Página de enseñanza html</title>
-    
-   <link rel="stylesheet" href="mihojadeestilos.css"/>
-
-</head>
-<body>
-
-   <header id="cabeceraweb">
-
-	<h1>Este sería el título mi página web</h1>
-
-   </header>
-
-   <nav id="navegacionprincipal">
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="description" content="Francisco Vera Web Developer" charset="utf-8">
+    <title>Desarrollador web</title>
+    <meta name="keywords"
+    content="disenio, desarrollo, pagina web">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src=javascript.js></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="imagenes/logo.jpg" alt="logotipo de MetalHead">
+      </div>
+    <nav>
       <ul>
-         <li>Quiénes somos</li>
-	 	<li>Nuestros productos</li>
-	 	<li>Contáctanos</li>
-	 	<li>Precios</li>
+        <li><a href="#Quien soy">Quien soy</a></li>
+        <li><a href="#Conocimientos">Conocimientos</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
       </ul>
-   </nav>
+    </nav>
+  </header>
 
-   <aside id="barralateral">
-        <blockquote>Primer elemento</blockquote>
-	<blockquote>Segundo elemento</blockquote>
-	<blockquote>Tercer elemento</blockquote>
+  <section>
+    <article>
+      <h2 id="Quien soy">Hola! Soy Francisco. Un placer conocerte.</h2>
+      <p>Soy un estudiante en sistemas, soy de buenos aires, argentina. Empece mi carrera de IT en 2017, este es mi primer proyecto freelance, admito que no es sencillo, pero me apasiona ver como puedo terminarlo.</p>
+    </article>
+  </section>
 
-   </aside>
+  <section>
+    <article>
+      <h2 id="Conocimientos">Mis Conocimientos</h2>
+      <h3>Front-end</h3>
+      <p>Del lado del cliente estoy siendo bastante autodidacta con cursos en linea, hasta ahora adquiri conocimientos en HTML5, y CSS3</p>
+    </article>
+      <h3>Back-end</h3>
+      <p>Del lado del servidor no poseo tantos conocimientos, hasta el momento domino lenguajes como java, y python</p>
+  </article>
+  </section>
 
-   <section id="contenidoprincipal">
+  <section>
+    <h2>Conoce un poco mas de mi</h2>
+    <p>Mira algunos de los trabajos que realice</p>
+  </section>
 
-     <article>
-     
-       <header>
-          
-          <hgroup>
-	    <h2>Título de la noticia 1</h2>
-	    <h3>Subtítulo de la noticia 1</h3>
-          </hgroup>
+  <footer>
+    <h3 id="Contacto">Contacto</h3>
+    <a href="mailto:veraf2649@gmail.com">Escribime al mail</a>
+  </footer>
 
-       </header>
-
-       <figure>
-
-       <img src="imagenes/paisaje_nieve.jpg"/>
-
-       <figcaption>
-       Paisaje nieve
-
-       </figcaption>
-
-       </figure>
-
-       <p><mark>Noticia 1</mark></p>
-       <p>Seguimos hablando de <i>noticia 1</i></p>
-       <p>Terminamos de hablar de <strong>noticia 1</strong></p>
-
-       <footer>
-
-      	 <p>Comentarios de usuarios</p>
-
-       </footer>
-
-     </article>
-
-     <article>
-     
-       <header>
-         
-	 <h2>Título de la noticia 2</h2>
-
-       </header>
-
-       <p><cite>Armagedon</cite></p>
-       <p>pelicula del 2000 hablando de un meteoro <cite>Armagedon</cite></p>
-       <p>Terminamos de hablar de noticia 2</p>
-
-       <footer>
-
-      	 <p>Comentarios de usuarios</p>
-
-       </footer>
-
-     </article>
-
-     <article>
-     
-       <header>
-         
-	  <hgroup>
-	    <h2>Título de la noticia 3</h2>
-	    <h3>Subtítulo de la noticia 3</h3>
-	  </hgroup>
-	  <time datetime="2020/01/15" pubdate>Noticia publicada el día 15/01/2020</time>
-
-       </header>
-
-       <p>Noticia 3</p>
-       <p>Seguimos hablando de noticia 3</p>
-       <p>Terminamos de hablar de noticia 3</p>
-
-       <footer>
-
-      	 <p>Comentarios de usuarios</p>
-
-       </footer>
-
-
-     </article>
-
-   </section>
-
-   <footer id="pieweb">
-       <small>Derechos reservados</small> <address>Teléfono: 43628153</address>
-   </footer>
-
-
-</body>
-
+  </body>
 </html>
